@@ -1,4 +1,4 @@
-.{
+*{
    margin:0;
    padding:0; 
 }
@@ -183,7 +183,7 @@ body{
 }
 .emailRow_options{
     display:flex;
-    align-item:center;
+    align-items:center;
 }
 .emailRow_options .material-symbols-outlined,input{
     margin:5px;
@@ -194,7 +194,7 @@ body{
     height: 50px;
     border-bottom:1px solid whitesmoke;
     cursor: pointer;
-    z-index;999;
+    z-index:999;
 }
 .emailRow:hover{
     border-top: 1px solid whitesmoke;
