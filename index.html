@@ -1,11 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google font icons-->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Gmail UI CLONE</title>
   </head>
@@ -13,19 +8,30 @@
     <!--Header starts-->
     <div class="header">
       <div class="headerLeft">
-        <span class="material-symbols-outlined"> menu </span>
+        <span>
+          <img src="Assets/menu.png" alt="menu">
+        </span>
         <img src="Assets/gmail.jpg" alt="mail">
       </div>
       <div class="headerMiddle">
-        <!--<span class="material-symbols-outlined"> search </span>-->
-	<span><img src="Assets/search.png" alt="search" class="icons"></span>
+        <span>
+          <img src="Assets/search.png" alt="search" class="icons">
+        </span>
         <input type="text" placeholder="search mail" />
-        <span class="material-symbols-outlined"> arrow_drop_down </span>
+        <span>
+          <img src="Assets/expand.png" alt="arrow" class="icons">
+        </span>
       </div>
       <div class="headerRight">
-        <span class="material-symbols-outlined"> apps </span>
-        <span class="material-symbols-outlined"> notifications </span>
-        <span class="material-symbols-outlined"> account_circle </span>
+        <span>
+          <img src="Assets/apps.png" alt="apps" class="icons">
+        </span>
+        <span>
+          <img src="Assets/notication.png" alt="notification" class="icons">
+        </span>
+        <span>
+          <img src="Assets/account.png" alt="account" class="icons">
+        </span>
       </div>
     </div>
     <!--Header ends-->
@@ -34,40 +40,62 @@
       <!--sidebar starts-->
       <div class="sidebar">
         <button class="sidebarCompose">
-        <span><img src="Assets/add.png" alt="account" class="icons"></span> Compose </button>
-	  <div class="sidebarOption sidebarOptionActive">
-          <span class="material-symbols-outlined">inbox</span>
+          <span>
+            <img src="Assets/add.png" alt="account" class="icons">
+          </span> Compose </button>
+        <div class="sidebarOption sidebarOptionActive">
+          <span>
+            <img src="Assets/inbox.png" alt="inbox" class="icons">
+          </span>
           <h3>Inbox</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">Star</span>
+          <span>
+            <img src="Assets/grade.png" alt="grade" class="icons">
+          </span>
           <h3>Starred</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">access_time</span>
+          <span>
+            <img src="Assets/timer.png" alt="schedule" class="icons">
+          </span>
           <h3>Snoozed</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">label_important</span>
+          <span>
+            <img src="Assets/label.png" alt="label" class="icons">
+          </span>
           <h3>Important</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">near_me</span>
+          <span>
+            <img src="Assets/send.png" alt="send" class="icons">
+          </span>
           <h3>Sent</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">note</span>
+          <span>
+            <img src="Assets/draft.png" alt="draft" class="icons">
+          </span>
           <h3>Drafts</h3>
         </div>
         <div class="sidebarOption ">
-          <span class="material-symbols-outlined">expand_more</span>
+          <span>
+            <img src="Assets/expand.png" alt="arrow" class="icons">
+          </span>
           <h3>More</h3>
         </div>
         <div class="sidebarFooter">
           <div class="sidebarFooterIcons">
-            <span class="material-symbols-outlined">person</span>
-            <span class="material-symbols-outlined">duo</span>
-            <span class="material-symbols-outlined">phone</span>
+            <span>
+              <img src="Assets/person.png" alt="person" class="icons">
+            </span>
+            <span>
+              <img src="Assets/video.png" alt="video" class="icons">
+            </span>
+            <span>
+              <img src="Assets/call.png" alt="call" class="icons">
+            </span>
           </div>
         </div>
       </div>
@@ -78,30 +106,50 @@
         <div class="emailListSettings">
           <div class="emailListSettingsLeft">
             <input type="checkbox">
-            <span class="material-symbols-outlined">arrow_drop_down</span>
-            <span class="material-symbols-outlined">redo</span>
-            <span class="material-symbols-outlined">more_vert</span>
+            <span>
+              <img src="Assets/expand.png" class="icons" alt="expand">
+            </span>
+            <span>
+              <img src="Assets/refresh.png" class="icons" alt="refresh">
+            </span>
+            <span>
+              <img src="Assets/morevert.png" class="icons" alt="morevert">
+            </span>
           </div>
           <div class="emailListSettingsRight">
-            <span class="material-symbols-outlined">chevron_left</span>
-            <span class="material-symbols-outlined">chevron_right</span>
-            <span class="material-symbols-outlined">keyboard_hide</span>
-            <span class="material-symbols-outlined">settings</span>
+            <span>
+              <img src="Assets/chevronleft.png" class="icons" alt="chl">
+            </span>
+            <span>
+              <img src="Assets/chevronright.png" class="icons" alt="chr">
+            </span>
+            <span>
+              <img src="Assets/keyboard.png" class="icons" alt="keyboard">
+            </span>
+            <span>
+              <img src="Assets/settings.png" class="icons" alt="settings">
+            </span>
           </div>
         </div>
         <!--setting ends-->
         <!--section starts-->
         <div class="emailListSection">
           <div class="section sectionSelected">
-            <span class="material-symbols-outlined">inbox</span>
+            <span>
+              <img src="Assets/inbox.png" class="icons" alt="inbox">
+            </span>
             <h4>Primary</h4>
           </div>
           <div class="section ">
-            <span class="material-symbols-outlined">people</span>
+            <span>
+              <img src="Assets/group.png" class="icons" alt="group">
+            </span>
             <h4>Social</h4>
           </div>
           <div class="section ">
-            <span class="material-symbols-outlined">local_offer</span>
+            <span>
+              <img src="Assets/sell.png" class="icons" alt="sell">
+            </span>
             <h4>Promotions</h4>
           </div>
         </div>
@@ -112,8 +160,12 @@
           <div class="emailRow">
             <div class="emailRowOptions">
               <input type="checkBox">
-              <span class="material-symbols-outlined">star_border</span>
-              <span class="material-symbols-outlined">label_important</span>
+              <span>
+                <img src="Assets/star.png" class="icons" alt="grade">
+              </span>
+              <span>
+                <img src="Assets/label.png" class="icons" alt="label">
+              </span>
             </div>
             <h3 class="emailRowTitle">Youtube</h3>
             <div class="emailRowMessage">
@@ -127,8 +179,12 @@
           <div class="emailRow">
             <div class="emailRowOptions">
               <input type="checkBox">
-              <span class="material-symbols-outlined">star_border</span>
-              <span class="material-symbols-outlined">label_important</span>
+              <span>
+                <img src="Assets/star.png" class="icons" alt="grade">
+              </span>
+              <span>
+                <img src="Assets/label.png" class="icons" alt="label">
+              </span>
             </div>
             <h3 class="emailRowTitle">Youtube</h3>
             <div class="emailRowMessage">
@@ -142,8 +198,12 @@
           <div class="emailRow">
             <div class="emailRowOptions">
               <input type="checkBox">
-              <span class="material-symbols-outlined">star_border</span>
-              <span class="material-symbols-outlined">label_important</span>
+              <span>
+                <img src="Assets/star.png" class="icons" alt="grade">
+              </span>
+              <span>
+                <img src="Assets/label.png" class="icons" alt="label">
+              </span>
             </div>
             <h3 class="emailRowTitle">Youtube</h3>
             <div class="emailRowMessage">
@@ -157,8 +217,12 @@
           <div class="emailRow">
             <div class="emailRowOptions">
               <input type="checkBox">
-              <span class="material-symbols-outlined">star_border</span>
-              <span class="material-symbols-outlined">label_important</span>
+              <span>
+                <img src="Assets/star.png" class="icons" alt="grade">
+              </span>
+              <span>
+                <img src="Assets/label.png" class="icons" alt="label">
+              </span>
             </div>
             <h3 class="emailRowTitle">Youtube</h3>
             <div class="emailRowMessage">
@@ -172,8 +236,12 @@
           <div class="emailRow">
             <div class="emailRowOptions">
               <input type="checkBox">
-              <span class="material-symbols-outlined">star_border</span>
-              <span class="material-symbols-outlined">label_important</span>
+              <span>
+                <img src="Assets/star.png" class="icons" alt="grade">
+              </span>
+              <span>
+                <img src="Assets/label.png" class="icons" alt="label">
+              </span>
             </div>
             <h3 class="emailRowTitle">Youtube</h3>
             <div class="emailRowMessage">

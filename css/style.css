@@ -40,6 +40,10 @@
 .material-symbols-outlined {
 	color: gray;
 }
+.headerLeft span img{
+	width:25px;
+	
+}
 .icons{
 	width:25px;
 	
@@ -98,16 +102,14 @@
 .sidebarOption {
 	display: flex;
 	align-items: center;
-	padding:10 10px;
+	padding:10px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	cursor: pointer;
 	color: #818181;
 }
 
-.sidebarOption .material-symbols-outlined {
-	padding: 5px;
-}
+
 
 .sidebarOption h3 {
 	flex: 1;
@@ -160,12 +162,14 @@ body {
 	background-color: white;
 	padding:5px;
 	z-index: 999;
-	padding: 8px;
+	padding:25px;
 }
 
 .emailListSettingsLeft {
 	display: flex;
 	align-items: center;
+	
+
 }
 
 .emailListSettings .material-symbols-outlined {
@@ -227,7 +231,7 @@ body {
 .emailRow {
 	display: flex;
 	align-items: center;
-	padding:1px;
+	padding:10px;
 	border-bottom: 1px solid whitesmoke;
 	cursor: pointer;
 	z-index: 999;
@@ -286,8 +290,11 @@ body {
 	.sideBar {
 		width: 100px;
 	}
-	.material-symbols-outlined {
-		font-size: 18px;
+	.headerLeft span img{
+			width:18px;
+	}
+	.icons{
+		width: 18px;
 	}
 	.headerMiddle input {
 		font-size: small;
@@ -320,13 +327,16 @@ body {
 	.headerMiddle {
 		padding: 0px;
 	}
+	.headerLeft span img{
+			width:16px;
+	}
 
 	.headerLeft img {
 		width: 40px;
 	}
 
-	.material-symbols-outlined {
-		font-size: 16px;
+	.icons{
+		width: 16px;
 	}
 	.sideBar{
 			width:50px;
@@ -346,6 +356,9 @@ body {
 
 	.section h4 {
 		font-size: 8px;
+	}
+	.emailRow{
+		padding:2px;
 	}
 
 	.emailRowTitle {
